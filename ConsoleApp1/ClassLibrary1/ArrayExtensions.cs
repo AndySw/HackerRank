@@ -6,6 +6,8 @@ namespace ClassLibrary1
     {
         public static int[] RotateLeft(this int[] array, int rotations)
         {
+            if(rotations < 0) { throw new ArgumentOutOfRangeException(); }
+
             int[] result = new int[array.Length];
             int[] temp = new int[array.Length];
 
@@ -28,10 +30,9 @@ namespace ClassLibrary1
 
             //reverse the order of the temp array
             int j = 0;
-            for(int i = 0; i < result.Length; i++)
+            for(int i = 0; i < result.Length - 1; i++)
             {
-                var x = (remainder);
-                result[i] = temp[j++];
+                result[i + remainder] = temp[j++];
             }
 
             //add the unrotated array elements to the left-hand side of the array
