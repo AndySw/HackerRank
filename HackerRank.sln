@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.ArrayLeftRotatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.UnitTests", "HackerRank.UnitTests\HackerRank.UnitTests.csproj", "{DFF44718-27B7-4180-B31E-587F69573444}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.MakingAnagrams", "HackerRank.MakingAnagrams\HackerRank.MakingAnagrams.csproj", "{F155D299-CDE6-44E8-ADE8-0B0B51B5A052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DFF44718-27B7-4180-B31E-587F69573444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFF44718-27B7-4180-B31E-587F69573444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFF44718-27B7-4180-B31E-587F69573444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F155D299-CDE6-44E8-ADE8-0B0B51B5A052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F155D299-CDE6-44E8-ADE8-0B0B51B5A052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F155D299-CDE6-44E8-ADE8-0B0B51B5A052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F155D299-CDE6-44E8-ADE8-0B0B51B5A052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

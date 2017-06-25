@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="ArrayLeftRotationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MakingAnagramsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
