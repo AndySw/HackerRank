@@ -35,7 +35,7 @@ namespace HackerRank.ArrayLeftRotation
         {
             if (rotations < 0) { throw new ArgumentOutOfRangeException(); }
             
-            return input.Skip(input.Length - (input.Length - (rotations % input.Length)))
+            return input.Skip(rotations % input.Length)
                         .Concat(input.Take(rotations % input.Length))
                         .ToArray();
         }
